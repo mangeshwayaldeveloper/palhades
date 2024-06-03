@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+  border-image: linear-gradient(#8a5cf6dc, #6a1d9ae3) fill 1;
+}
