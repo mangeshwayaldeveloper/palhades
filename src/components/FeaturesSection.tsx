@@ -3,7 +3,7 @@ import { FirstAid, Book } from "@phosphor-icons/react";
 function FeaturesSection() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center gap-10 md:gap-4 p-10 cursor-default justify-evenly">
+      <div className="flex flex-col md:flex-row items-center gap-10 md:gap-4 md:p-10 cursor-default justify-evenly">
         <div className="flex flex-col items-center shadow-sm hover:shadow-2xl transition duration-300 rounded-lg w-4/5 md:w-1/4 bg-white">
           <div className="rounded-full mt-10 p-5 bg-purple-500 text-white">
             <FirstAid size={36} />

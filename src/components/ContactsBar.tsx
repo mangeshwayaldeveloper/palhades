@@ -14,7 +14,7 @@ function ContactsBar() {
             <div> 9923 35 0604</div>
           </div>
           <EnvelopeSimple size={20} color="#fff" />
-          <div>palhadesofficial@gmail.com</div>
+          <div>support@palhades.com</div>
         </div>
       </div>
     </>

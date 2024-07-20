@@ -14,7 +14,7 @@ export const Footer = () => {
             alt="logo"
             width={20}
             height={20}
-            className="hidden md:flex"
+            className="flex"
           />
               <span className="ml-2 text-2xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-header to-theme uppercase">
                 Palhades
@@ -27,7 +27,7 @@ export const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="space-y-4 text-sm">
+          <div className="space-y-4 text-sm md:mt-0 mt-4">
             <p className="text-base font-bold tracking-wide text-theme">
               Contacts
             </p>
@@ -67,7 +67,7 @@ export const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className="md:mt-0 mt-4 space-y-4">
             <span className="text-base font-bold tracking-wide text-header">
               Social
             </span>
