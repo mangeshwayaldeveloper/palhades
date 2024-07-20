@@ -23,7 +23,7 @@ function AboutUs() {
   return (
     <>
       <div className="md:grid grid-cols-2 p-10">
-        <div className="aspect-w-5 aspect-h-3">
+        <div className="hidden md:flex aspect-w-5 aspect-h-3">
           <Video
             playing={playing}
             replay={replay}
@@ -49,7 +49,7 @@ function AboutUs() {
             Choose us for reliable, convenient, and high-quality travel
             services.
           </div>
-          <div className="flex items-center gap-4 justify-between">
+          <div className="hidden md:flex items-center gap-4 justify-between">
             <div className="flex gap-4">
               <Repeat
                 size={32}
