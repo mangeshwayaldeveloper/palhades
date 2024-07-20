@@ -22,7 +22,7 @@ function AboutUs() {
 
   return (
     <>
-      <div className="md:grid grid-cols-2 p-10">
+      <div className="md:grid grid-cols-2 md:p-10 p-4 my-10 md:my-0">
         <div className="hidden md:flex aspect-w-5 aspect-h-3">
           <Video
             playing={playing}
@@ -33,7 +33,7 @@ function AboutUs() {
             setPlaying={setPlaying}
           />
         </div>
-        <div className="w-3/4 ml-10 mt-7 cursor-default">
+        <div className="md:w-3/4 ml-10 mt-7 cursor-default">
           <div className="text-header font-bold">ABOUT US</div>
           <div className="text-theme font-bold text-3xl my-6">
             Welcome to Palhade's B2C Services, your top choice for personal

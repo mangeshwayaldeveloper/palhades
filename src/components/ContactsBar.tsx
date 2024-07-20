@@ -9,10 +9,7 @@ function ContactsBar() {
         </div>
         <div className="flex items-center justify-between gap-2 md:gap-4 md:mr-7">
           <Phone size={20} color="#fff" />
-          <div className="flex flex-col md:flex-row md:gap-4">
             <div>9922 35 0604</div>
-            <div> 9923 35 0604</div>
-          </div>
           <EnvelopeSimple size={20} color="#fff" />
           <div>support@palhades.com</div>
         </div>

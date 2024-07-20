@@ -2,12 +2,12 @@ export const Testimonial = () =>{
     return (
         <>
             <div className="flex md:flex-row flex-col w-full mt-16">
-                <div className="flex flex-col gap-4 w-1/3 m-16">
+                <div className="flex flex-col gap-4 md:w-1/3 m-16 md:text-left text-center">
                     <p className="text-lg text-purple-700 font-semibold">TESTIMONIAL</p>
-                    <p className="text-4xl text-purple-900 text-wrap w-1/2 font-semibold">Customer Feedback & Reviews</p>
+                    <p className="text-4xl text-purple-900 md:text-left md:w-1/2 font-semibold">Customer Feedback & Reviews</p>
                     <p className="text-lg text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div className="flex flex-col md:flex-row w-2/3 m-16 gap-4 text-gray-500">
+                <div className="flex flex-col md:flex-row md:w-2/3 m-6 md:m-16 gap-4 text-gray-500">
                     <div className="p-6 bg-gray-100 rounded-xl">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus facere, nostrum dicta expedita, facilis illum dolorum ad delectus mollitia illo quisquam voluptas blanditiis maxime quos voluptatibus itaque dignissimos. Ex, natus.</p>
                         <p className="text-end mt-10 text-purple-600">- Monika Alba</p>
